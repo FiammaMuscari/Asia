@@ -15,7 +15,7 @@ function App() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    className="w-20 md:w-32 lg:w-48 h-auto mx-auto md:mx-0 max-w-full bigger-image"
+                    className="w-20  h-auto mx-auto md:mx-0 max-w-full bigger-image"
                     src="/dexscreener.webp"
                     alt=""
                   />
@@ -28,7 +28,7 @@ function App() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    className="w-20 md:w-32 lg:w-48 h-auto mx-auto md:mx-0 max-w-full circle-image"
+                    className="w-20  h-auto mx-auto md:mx-0 max-w-full circle-image"
                     src="/teg.webp"
                     alt=""
                   />
@@ -41,7 +41,7 @@ function App() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    className="w-20 md:w-32 lg:w-48 h-auto mx-auto md:mx-0 max-w-full circle-image"
+                    className="w-20  h-auto mx-auto md:mx-0 max-w-full circle-image"
                     src="/X_icon.svg"
                     alt=""
                   />
