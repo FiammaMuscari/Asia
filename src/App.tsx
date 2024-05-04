@@ -16,7 +16,7 @@ function App() {
                 >
                   <img
                     className="w-20 md:w-32 lg:w-48 h-auto mx-auto md:mx-0 max-w-full bigger-image"
-                    src="/public/dexscreener.webp"
+                    src="/dexscreener.webp"
                     alt=""
                   />
                 </a>
@@ -29,7 +29,7 @@ function App() {
                 >
                   <img
                     className="w-20 md:w-32 lg:w-48 h-auto mx-auto md:mx-0 max-w-full circle-image"
-                    src="/public/teg.webp"
+                    src="/teg.webp"
                     alt=""
                   />
                 </a>
@@ -42,7 +42,7 @@ function App() {
                 >
                   <img
                     className="w-20 md:w-32 lg:w-48 h-auto mx-auto md:mx-0 max-w-full circle-image"
-                    src="/public/X_icon.svg"
+                    src="/X_icon.svg"
                     alt=""
                   />
                 </a>
