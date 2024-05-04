@@ -49,6 +49,19 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+.circle-image {
+  width: 45px; /* Ajusta el tamaño según sea necesario */
+  height: 45px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin: 10px;
+  padding: 1.7px; /* Ajusta el margen entre las imágenes */
+}
+.bigger-image {
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: 50px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin: 11px;
+}
 button:hover {
   border-color: #646cff;
 }
