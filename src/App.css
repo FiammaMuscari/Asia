@@ -8,12 +8,22 @@
   padding: 2rem;
   text-align: center;
 }
-.jaro-font {
-  font-family: "Jaro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+
+.bg-image-1 {
+  background-image: url("/1.webp");
+  transition: background-image 2s ease; /* Transición de 2 segundos */
 }
+
+.bg-image-2 {
+  background-image: url("/2.webp");
+  transition: background-image 2s ease;
+}
+
+.bg-image-3 {
+  background-image: url("/3.webp");
+  transition: background-image 2s ease;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

@@ -1,9 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
   const [showCopiedMessage, setShowCopiedMessage] = useState(false);
+  const [bgIndex, setBgIndex] = useState(1); // Estado para almacenar el índice de la imagen de fondo
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Cambiar al siguiente índice de imagen de fondo
+      setBgIndex((prevIndex) => (prevIndex % 3) + 1);
+    }, 5000); // Cambiar cada 5 segundos
+
+    return () => clearInterval(interval);
+  }, []);
   const copyToClipboard = (text: string) => {
     navigator.clipboard
       .writeText(text)
@@ -22,7 +31,7 @@ function App() {
   return (
     <>
       <section className="min-h-screen flex justify-center items-center">
-        <div className="bg-slate-800 p-6 md:p-12 lg:p-24">
+        <div className={`bg-image-${bgIndex} p-6 md:p-12 lg:p-24`}>
           <div>
             <div></div>
           </div>
