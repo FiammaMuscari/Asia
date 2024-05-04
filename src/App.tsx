@@ -30,7 +30,7 @@ function App() {
   };
   return (
     <>
-      <section className="min-h-screen flex justify-center items-center">
+      <section className="min-h-screen flex flex-col gap-[10em] justify-center items-center">
         <div
           className={`bg-image-${bgIndex} md:h-[645px]   h-[20em]  md:p-12 lg:p-24  `}
         >
@@ -128,8 +128,9 @@ function App() {
             </div>
           </div>
         </div>
+        <img className="w-[20em] xl:mt-[-4em]" src="/sea.webp" alt="" />
       </section>
-      <img className="w-[20em] xl:mt-[-4em]" src="/sea.webp" alt="" />
+
       {showCopiedMessage && (
         <div className="fixed z-10 bottom-4 right-4 bg-black text-white p-2 rounded font-serif font-bold">
           Copied to clipboard
