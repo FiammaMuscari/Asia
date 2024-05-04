@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <section>
-        <div className="text-5xl">hi</div>
+        <div className="text-5xl">$Asia</div>
       </section>
     </>
   );
