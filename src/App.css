@@ -29,6 +29,12 @@
   background-position: center;
   transition: background-image 2s ease;
 }
+.bg-image-4 {
+  background-image: url("/4.webp");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 2s ease;
+}
 
 .logo {
   height: 6em;

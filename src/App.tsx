@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       // Cambiar al siguiente índice de imagen de fondo
-      setBgIndex((prevIndex) => (prevIndex % 3) + 1);
+      setBgIndex((prevIndex) => (prevIndex % 4) + 1);
     }, 5000); // Cambiar cada 5 segundos
 
     return () => clearInterval(interval);
