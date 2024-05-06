@@ -44,7 +44,7 @@ function App() {
                   )
                 }
               >
-                <h1 className="text-5xl text-black "> $Asia</h1>
+                <h1 className="text-5xl text-black "> $ASIA</h1>
               </a>
               <a
                 className="py-6 bg-transparent hover:border-none active:border-none "
