@@ -30,11 +30,62 @@ function App() {
   };
   return (
     <>
-      <section className="min-h-screen flex flex-col gap-[10em] justify-center items-center">
+      <section className="min-h-screen background flex flex-col gap-[10em] justify-center items-center">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
         <div
           className={`bg-image-${bgIndex} md:h-[645px]   h-[20em]  md:p-12 lg:p-24  `}
         >
-          <div className="text-5xl max-w-[10em] md:max-w-[15em] mb-[1.5em]   text-black bg-white border-[.07em] p-8 md:p-12 lg:p-16 rounded-sm border-solid border-black">
+          <div className="text-5xl max-w-[10em] md:max-w-[15em] mb-[1.5em] bg-cover   text-black bg-[url('/bg.jpg')] border-[.07em] p-8 md:p-12 lg:p-16 rounded-sm border-solid border-black">
             <div className="flex  justify-center items-center gap-2">
               <a
                 className="py-6 bg-transparent hover:border-none active:border-none"
