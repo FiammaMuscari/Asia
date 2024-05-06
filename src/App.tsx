@@ -128,6 +128,17 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="iframe-container">
+          {" "}
+          <iframe
+            id="dextools-widget"
+            title="DEXTools Trading Chart"
+            width="500"
+            height="400"
+            src="https://www.dextools.io/widget-chart/en/solana/pe-light/CukxjEbbfDZB3JWJ36A6Y9Dqtn33hurgwXVeqxAiZY2R?theme=light&chartType=2&chartResolution=30&drawingToolbars=false"
+          ></iframe>
+        </div>
+
         <img className="w-[20em] xl:mt-[-4em]" src="/sea.webp" alt="" />
       </section>
 

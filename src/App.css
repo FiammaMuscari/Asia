@@ -35,7 +35,22 @@
   background-position: center;
   transition: background-image 2s ease;
 }
+/* Estilos CSS */
+.iframe-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Establece el ancho máximo del contenedor */
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide la altura entre el ancho y lo multiplica por 100) */
+}
 
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
