@@ -31,14 +31,14 @@ function App() {
   return (
     <>
       <section className="min-h-screen relative background flex flex-col gap-[5em] justify-center items-center">
-        <div className="flex flex-col pt-10 gap-2 justify-center m-auto items-center">
+        <div className="flex animate-fade-up flex-col pt-10 gap-2 justify-center m-auto items-center">
           <h1>Discover the beauty of Asia, the continental giant.</h1>
           <h1>Now live on Solana Blockchain</h1>
         </div>
         <div
           className={`bg-image-${bgIndex} md:h-[645px]    h-[20em]  md:p-12 lg:p-24  `}
         >
-          <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[50vh] left-2">
+          <div className="absolute animate-fade-right hidden xl:block  h-[50em] w-[12em] top-[50vh] left-2">
             {" "}
             <img src="/dragon.jpg" alt="" />
           </div>
@@ -136,7 +136,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className=" xl:hidden block   w-[12em]  ">
+        <div className=" xl:hidden block animate-rotate-y animate-thrice animate-duration-[4000ms] w-[12em]  ">
           {" "}
           <img src="/dragon.jpg" alt="" />
         </div>
@@ -152,7 +152,7 @@ function App() {
         </div>
 
         <img className="w-[20em] xl:mt-[-4em]" src="/sea.webp" alt="" />
-        <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[50vh] right-2">
+        <div className="absolute animate-fade-left hidden xl:block  h-[50em] w-[12em] top-[50vh] right-2">
           {" "}
           <img src="/dragon.jpg" alt="" style={{ transform: "scaleX(-1)" }} />
         </div>
