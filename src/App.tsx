@@ -40,7 +40,7 @@ function App() {
         >
           <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[50vh] left-2">
             {" "}
-            <img src="/dragon.png" alt="" />
+            <img src="/dragon.jpg" alt="" />
           </div>
           <div className="text-5xl rounded-lg max-w-[10em] md:max-w-[15em] mb-[1.5em] bg-cover   text-black bg-[url('/bg.jpg')] border-[.07em] p-8 md:p-12 lg:p-16   border-solid border-black">
             <div className="flex  justify-center items-center gap-2">
@@ -138,7 +138,7 @@ function App() {
         </div>
         <div className=" xl:hidden block   w-[12em]  ">
           {" "}
-          <img src="/dragon.png" alt="" />
+          <img src="/dragon.jpg" alt="" />
         </div>
         <div className="iframe-container">
           {" "}
@@ -154,7 +154,7 @@ function App() {
         <img className="w-[20em] xl:mt-[-4em]" src="/sea.webp" alt="" />
         <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[50vh] right-2">
           {" "}
-          <img src="/dragon.png" alt="" style={{ transform: "scaleX(-1)" }} />
+          <img src="/dragon.jpg" alt="" style={{ transform: "scaleX(-1)" }} />
         </div>
       </section>
 
