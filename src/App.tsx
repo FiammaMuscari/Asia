@@ -36,13 +36,13 @@ function App() {
           <h1>Now live on Solana Blockchain</h1>
         </div>
         <div
-          className={`bg-image-${bgIndex} md:h-[645px]    h-[20em]  md:p-12 lg:p-24  `}
+          className={`bg-image-${bgIndex} md:h-[645px] rounded-lg  md:rounded-sm  h-[20em]  md:p-12 lg:p-24  `}
         >
-          <div className="absolute animate-fade-right hidden xl:block  h-[50em] w-[12em] top-[50vh] left-2">
+          <div className="absolute  animate-fade-right hidden xl:block  h-[50em] w-[12em] top-[50vh] left-2">
             {" "}
             <img src="/dragon.jpg" alt="" />
           </div>
-          <div className="text-5xl rounded-lg max-w-[10em] md:max-w-[15em] mb-[1.5em] bg-cover   text-black bg-[url('/bg.jpg')] border-[.07em] p-8 md:p-12 lg:p-16   border-solid border-black">
+          <div className="text-5xl md:h-[6.3em] pt-[0.5em] rounded-lg max-w-[10em] md:max-w-[15em] mb-[1.5em] bg-cover   text-black bg-[url('/bg.jpg')] border-[.07em] px-8   lg:px-16   border-solid border-black">
             <div className="flex  justify-center items-center gap-2">
               <a
                 className="py-6 bg-transparent hover:border-none active:border-none"
