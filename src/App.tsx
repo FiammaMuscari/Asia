@@ -30,7 +30,7 @@ function App() {
   };
   return (
     <>
-      <section className="min-h-screen relative background flex flex-col gap-[10em] justify-center items-center">
+      <section className="min-h-screen relative background flex flex-col gap-[5em] justify-center items-center">
         <div
           className={`bg-image-${bgIndex} md:h-[645px]    h-[20em]  md:p-12 lg:p-24  `}
         >
@@ -131,6 +131,10 @@ function App() {
               </a>
             </div>
           </div>
+        </div>
+        <div className=" xl:hidden block   w-[12em]  ">
+          {" "}
+          <img src="/dragon.png" alt="" />
         </div>
         <div className="iframe-container">
           {" "}
