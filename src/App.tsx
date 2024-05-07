@@ -38,7 +38,7 @@ function App() {
         <div
           className={`bg-image-${bgIndex} md:h-[645px]    h-[20em]  md:p-12 lg:p-24  `}
         >
-          <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[100vh] left-2">
+          <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[50vh] left-2">
             {" "}
             <img src="/dragon.png" alt="" />
           </div>
@@ -152,7 +152,7 @@ function App() {
         </div>
 
         <img className="w-[20em] xl:mt-[-4em]" src="/sea.webp" alt="" />
-        <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[100vh] right-2">
+        <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[50vh] right-2">
           {" "}
           <img src="/dragon.png" alt="" style={{ transform: "scaleX(-1)" }} />
         </div>
