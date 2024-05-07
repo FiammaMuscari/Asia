@@ -30,11 +30,15 @@ function App() {
   };
   return (
     <>
-      <section className="min-h-screen background flex flex-col gap-[10em] justify-center items-center">
+      <section className="min-h-screen relative background flex flex-col gap-[10em] justify-center items-center">
         <div
-          className={`bg-image-${bgIndex} md:h-[645px]   h-[20em]  md:p-12 lg:p-24  `}
+          className={`bg-image-${bgIndex} md:h-[645px]    h-[20em]  md:p-12 lg:p-24  `}
         >
-          <div className="text-5xl max-w-[10em] md:max-w-[15em] mb-[1.5em] bg-cover   text-black bg-[url('/bg.jpg')] border-[.07em] p-8 md:p-12 lg:p-16 rounded-sm border-solid border-black">
+          <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[100vh] left-2">
+            {" "}
+            <img src="/dragon.png" alt="" />
+          </div>
+          <div className="text-5xl rounded-lg max-w-[10em] md:max-w-[15em] mb-[1.5em] bg-cover   text-black bg-[url('/bg.jpg')] border-[.07em] p-8 md:p-12 lg:p-16   border-solid border-black">
             <div className="flex  justify-center items-center gap-2">
               <a
                 className="py-6 bg-transparent hover:border-none active:border-none"
@@ -140,10 +144,14 @@ function App() {
         </div>
 
         <img className="w-[20em] xl:mt-[-4em]" src="/sea.webp" alt="" />
+        <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[100vh] right-2">
+          {" "}
+          <img src="/dragon.png" alt="" />
+        </div>
       </section>
 
       {showCopiedMessage && (
-        <div className="fixed z-10 bottom-4 right-4 bg-black text-white p-2 rounded font-serif font-bold">
+        <div className="fixed z-10 bottom-4 right-4 bg-red-700 text-white p-2 rounded font-serif font-bold">
           Copied to clipboard
         </div>
       )}
