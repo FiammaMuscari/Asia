@@ -31,6 +31,10 @@ function App() {
   return (
     <>
       <section className="min-h-screen relative background flex flex-col gap-[5em] justify-center items-center">
+        <div className="flex flex-col pt-10 gap-2 justify-center m-auto items-center">
+          <h1>Discover the beauty of Asia, the continental giant.</h1>
+          <h1>Now live on Solana Blockchain</h1>
+        </div>
         <div
           className={`bg-image-${bgIndex} md:h-[645px]    h-[20em]  md:p-12 lg:p-24  `}
         >
