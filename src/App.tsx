@@ -154,7 +154,7 @@ function App() {
         <img className="w-[20em] xl:mt-[-4em]" src="/sea.webp" alt="" />
         <div className="absolute hidden xl:block  h-[50em] w-[12em] top-[100vh] right-2">
           {" "}
-          <img src="/dragon.png" alt="" />
+          <img src="/dragon.png" alt="" style={{ transform: "scaleX(-1)" }} />
         </div>
       </section>
 
